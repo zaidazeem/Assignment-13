@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-primary text-light text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Hi, I'm a Creative Developer</h1>
+            <p class="lead">Building Modern & Responsive Web Experiences</p>
+        </div>
+    </header>
+    
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="text-dark">About Me</h2>
+            <p class="text-muted">I am a dedicated web developer passionate about crafting sleek, user-friendly digital experiences. My expertise spans front-end and back-end development, ensuring a seamless and dynamic user experience.</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="text-light">Skills & Technologies</h2>
+            <div class="row mt-4">
+                <div class="col-md-3"><div class="p-4 border rounded bg-light text-dark">HTML & CSS</div></div>
+                <div class="col-md-3"><div class="p-4 border rounded bg-light text-dark">JavaScript & jQuery</div></div>
+                <div class="col-md-3"><div class="p-4 border rounded bg-light text-dark">Bootstrap & Tailwind</div></div>
+                <div class="col-md-3"><div class="p-4 border rounded bg-light text-dark">React & Vue.js</div></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="text-dark">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0">
+                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">A sleek e-commerce platform with modern UI.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0">
+                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">A dynamic portfolio website with animations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0">
+                        <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">A custom blog system with user management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="py-5 bg-secondary text-white">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p class="mb-4">Let's collaborate! Feel free to drop a message.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="p-4 bg-white text-dark rounded shadow-lg">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark btn-lg w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
